@@ -6,7 +6,6 @@ import com.byl.mvvm.databinding.ItemArticleBinding
 import com.byl.mvvm.ui.base.BaseAdapter
 import com.byl.mvvm.ui.main.model.ArticleBean
 
-
 class ArticleListAdapter(context: Activity, listDatas: ArrayList<ArticleBean>) :
     BaseAdapter<ItemArticleBinding, ArticleBean>(context, listDatas) {
 
